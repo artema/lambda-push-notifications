@@ -2,15 +2,15 @@
   "name": "lambda-push-notifications",
   "version": "1.0.0",
   "description": "AWS Lambda-based push notifications.",
-  "main": "index.js",
+  "main": "lib",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/artema/lambda-push-notifications.git"
   },
   "keywords": [
-    "aws",
+    "AWS",
     "lambda",
-    "push",
+    "SNS",
     "notifications"
   ],
   "author": "Artem Abashev <artem@abashev.com>",
@@ -18,5 +18,19 @@
   "bugs": {
     "url": "https://github.com/artema/lambda-push-notifications/issues"
   },
-  "homepage": "https://github.com/artema/lambda-push-notifications#readme"
+  "homepage": "https://github.com/artema/lambda-push-notifications#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "aws-sdk": "^2.1.49",
+    "debug": "^2.2.0"
+  },
+  "bundledDependencies": [
+    "async",
+    "debug"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-aws-lambda": "^0.10.0",
+    "load-grunt-tasks": "^3.2.0"
+  }
 }
