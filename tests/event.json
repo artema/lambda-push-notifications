@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:EXAMPLE",
+      "EventSource": "aws:sns",
+      "Sns": {
+        "SignatureVersion": "1",
+        "Timestamp": "1970-01-01T00:00:00.000Z",
+        "Signature": "EXAMPLE",
+        "SigningCertUrl": "EXAMPLE",
+        "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+        "Message": "{\"apns_recipients\":[\"3DF9405DFEFBC330EFD8E9A37E6DF67BD6DE64E9FEE432C7C16DEE06F1C3CBC2\"],\"gcm_recipients\":[\"APA91bGL_FUKgVQ56XZ5Y1p-ouy65l7uNAQovsDFHtynzaX_wL17O97UXyYuYO20fqAUanezvWnQTOL2cbBeAnFhYYC20edyqU4IlHmJ-mR-335l31pvAglwfpWX2BIurH0qi8OkoVk0nJhgM5TQGmP9D6h3q6SnLw\"],\"apns\":{\"alert\":\"Test\",\"badge\":1,\"sound\":\"default\"},\"gcm\":{\"text\":\"Test\"}}",
+        "MessageAttributes": {},
+        "Type": "Notification",
+        "UnsubscribeUrl": "EXAMPLE",
+        "TopicArn": "arn:aws:sns:EXAMPLE",
+        "Subject": "TestInvoke"
+      }
+    }
+  ]
+}
