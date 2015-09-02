@@ -1,0 +1,22 @@
+{
+  "name": "lambda-push-notifications",
+  "version": "1.0.0",
+  "description": "AWS Lambda-based push notifications.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artema/lambda-push-notifications.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "push",
+    "notifications"
+  ],
+  "author": "Artem Abashev <artem@abashev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artema/lambda-push-notifications/issues"
+  },
+  "homepage": "https://github.com/artema/lambda-push-notifications#readme"
+}
